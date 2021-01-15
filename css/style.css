@@ -61,20 +61,27 @@ body {
   margin: 40px auto; }
 
 .title-speakers {
-  font-size: 16px;
-  color: #000000;
   width: 172px;
-  text-align: center;
-  height: 49px;
-  line-height: 49px;
   margin: 0 auto;
   border-radius: 6px;
   background-color: #fee600;
   cursor: pointer;
   transition: background-color 0.6s ease; }
-  .title-speakers:hover {
-    background-color: #fff;
-    border: 1px solid #fee600; }
+  .title-speakers button {
+    font-size: 16px;
+    color: #000000;
+    width: 172px;
+    text-align: center;
+    height: 49px;
+    line-height: 49px;
+    border-radius: 6px;
+    border: 0;
+    background-color: #fee600;
+    cursor: pointer;
+    transition: background-color 0.6s ease; }
+    .title-speakers button:hover {
+      background-color: #fff;
+      border: 1px solid #fee600; }
 
 .speakers-bloc {
   display: flex;
